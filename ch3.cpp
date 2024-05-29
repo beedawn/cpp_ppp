@@ -73,4 +73,13 @@ int main(){
 			std::cout<<"The numbers are equal.\n";
 		}
 	}
+	double min, max;
+	sort(v.begin(),v.end());
+	min = v[0];
+	max = v[v.size()-1];
+	std::cout<<"max"<<max<<"\n";
+	std::cout<<"min"<<min<<"\n";
+	for(int i =0;i<v.size();i++){
+	std::cout<<v[i]<<"\n";
+	}
 }

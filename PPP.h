@@ -1,7 +1,7 @@
 // PPP.h
 
-import PPP;
-using namespace PPP;
+//#include PPP;
+//using namespace PPP;
 using namespace std;
 
 // disgusting macro hack to guarantee range checking for []:
